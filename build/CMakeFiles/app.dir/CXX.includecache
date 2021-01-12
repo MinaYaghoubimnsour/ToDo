@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/todo.hpp
+iostream
+-
+string
+-
+stdexcept
+-
+cstdlib
+-
+ctime
+-
+iomanip
+-
+vector
+-
+climits
+-
+sstream
+-
+
+/mnt/c/Users/Parsian.system/Desktop/p3/src/todo.cpp
+todo.hpp
+/mnt/c/Users/Parsian.system/Desktop/p3/src/todo.hpp
+
